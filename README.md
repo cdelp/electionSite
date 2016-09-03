@@ -2,6 +2,7 @@
 
 This is the initial Django framework for an Election Information website being created for HACC. CSS and page templates were taken from Bootstrap.
 <h2>Ignore all except for the electionSite folder</h2>
+(sodapyTest.py has some data querying examples)
 
 The project is "electionSite".
 Within the "electionSite" folder, overall project changes can be made in the settings.py and urls.py files.
