@@ -9,7 +9,7 @@ Within the "electionSite" folder, overall project changes can be made in the set
 Within the "candidatesSite" folder, py files can be edited as needed.
 "static" folder contains files needed for the web pages. These files are publically visible.
 "templates/candidatesSite" folder contains the html pages. "home.html" is currently the main demo page. 
-"header.html" is a template applied to all pages. "test.html" is a test page for navigation set-up.
+"header.html" is a template applied to all pages. "comparisons.html" is a rough draft candidate comparison page. "test.html" is a test page for navigation set-up.
 * if adding more folders of html pages in templates, please add the appropriate info to "apps.py" and "views.py"
 
 To access Hawaii Open Data Socrata database see this python example (change url as needed)
