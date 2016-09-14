@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#left_seal {
+	width: 80px;
+}
+
+#vote-header {
+	align: center;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+	height: 100%;
+	background-color: #B3EFE4;
+	padding: 0px;
+}
+body {
+	color: #000000;
+	text-align: center;
+	border-color: #000000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+	color: #939191;
+}
+
+/*
+ * Navigation
+ */
+.masthead-nav {
+    display: table;
+	width:100%;
+	margin: 0 auto;
+  }
+ 
+masthead-nav > li {  	
+	float: none;
+	display:table-cell;
+	text-align:center;
+}
+.masthead-nav > li + li {
+	margin-left: 0px;
+}
+.masthead-nav > li > a {
+	padding-right: 10;
+	padding-left: 10;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff; /* IE8 proofing */
+	color: rgba(1,1,1,.75);
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	margin-bottom: 0px;
+
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	background-color: rgba(255,255,255,.5);
+	border-right-color: #000000;
+	border-left-color: #000000;
+	border-bottom-color: rgba(255,255,255,1.0);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: #020000;
+	border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	color: none;
+  }
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
