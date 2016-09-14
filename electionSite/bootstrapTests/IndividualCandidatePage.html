@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Template for Candidate Comparison site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/icp.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+
+	<!-- Top Menu Area -->
+    <div class="container-fluid" style="padding:0px width:100%">
+    	<div class="row">
+        
+        	<!-- State Seal -->
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="well">
+                	<img src="images/Seal2.png" id="left_seal">
+                    
+                </div>            
+            </div>
+            
+            <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
+            	<h1 class="cover-heading" id="vote-header">VOTE HAWAI'I</h1>
+            </div>
+                       
+        </div>
+        
+        <div class="row container-fluid">
+        	<!-- Navigation -->           
+                <nav class="navbar navbar-default" style="background-color: transparent; border-top-color: transparent; border-bottom: medium solid transparent; border-right-color: transparent; border-left-color: transparent;">
+                	<div class="container-fluid">
+                        <ul class="masthead-nav nav navbar-nav" >
+                        	<li><a href="#">menu 1</a></li>
+                          	<li><a href="#">menu 2</a></li>
+                          	<li><a href="#">menu 3</a></li>
+                          	<li><a href="#">menu 4</a></li>
+                          	<li><a href="#">menu 5</a></li>
+                          	<li><a href="#">menu 6</a></li>
+                          	<li><a href="#">menu 7</a></li>
+                        </ul>
+                    </div>
+                </nav>         
+        </div>
+        
+    </div>
+    
+    <!-- Add content as needed -->
+    <div class="container-fluid">
+    	<h2 id="candidate-header">Insert Candidate Name</h2>
+        
+        <!-- Photo Section -->
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" id="candidate-photo-div">
+        	<h3> insert candidate photo </h3>
+            <img src="images/djou.jpg" id="candidate-photo">
+        </div>
+        
+        <!-- Bio Section -->
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 candidate-bio">
+        	<h3> insert candidate bio section</h3>
+            <br>
+            <p> fake text fake text fake text fake text fake text fake text fake text fake
+             		text fake text fake text fake text fake text fake text fake text fake 
+                    text fake text fake text fake text fake text fake text fake text fake 
+                    text fake text fake text 
+            </p>
+            <br>
+            <ul class="candidate-bio" id="candidate-bio-list">
+            	<li> sample bullet </li>
+                <li> sample bullet </li>
+                <li> sample bullet </li>
+                <li> sample bullet </li>
+                <li> sample bullet </li>
+            </ul>
+        </div>
+        
+        <!-- Issues Section -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 candidate-issues">
+        	<h3> insert candidate issues/other section</h3>
+            <br>
+              <table id="candidate-table">
+                  <tr>
+                    <th>Issue</th>
+                    <th>Opinion</th>
+                    <th>sample category</th>
+                  </tr>
+                  <tr>
+                    <td>Rail</td>
+                    <td> <span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                    <td>links to articles?</td>
+                    <tr>
+                    <td>sample</td>
+                    <td><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></td>
+                    <td>links to articles?</td>
+                  </tr>
+                  <tr>
+                    <td>sample</td>
+                    <td><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+                    <td>links to articles?</td>
+                  </tr>
+                  </tr>
+                  <tr>
+                    <td>sample</td>
+                    <td><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+                    <td>links to articles?</td>
+                  </tr>
+                  </tr>
+              </table>     
+       </div>
+       <br>
+       
+       <!-- Candidate Date Section -->
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 candidate-data">
+        	<h3> insert candidate data section</h3>
+            <br>
+            <h3> Candidate Contributions (or other data) </h3>
+            <!-- Embed code from Open Data Hawaii -->
+            <!-- need to maually add responsive class code to div and iframe -->
+            <div class="embed-responsive embed-responsive-16by9" id="data_embed"><iframe class="embed-responsive-item" width="950px" title="Djou contribution tree 2016" height="808px" src="https://data.hawaii.gov/w/2wnr-g9ib/w4u8-7ba7?cur=WLwiJbXunDC&from=root" frameborder="0"scrolling="no"><a href="https://data.hawaii.gov/Community/Djou-contribution-tree-2016/2wnr-g9ib" title="Djou contribution tree 2016" target="_blank">Djou contribution tree 2016</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div>
+            
+            <br>
+            <h3> Candidate Contributions (or other data) </h3>
+            <!-- Embed code from Open Data Hawaii -->
+       		<!-- need to maually add responsive class code to div and iframe -->
+            <div class="embed-responsive embed-responsive-16by9" id="data_embed"><iframe class="embed-responsive-item" width="950px" title="Djou Test Pie" height="808px" src="https://data.hawaii.gov/w/cm6k-ubd4/w4u8-7ba7?cur=fGoD65viNpl&from=root" frameborder="0"scrolling="no"><a href="https://data.hawaii.gov/Community/Djou-Test-Pie/cm6k-ubd4" title="Djou Test Pie" target="_blank">Djou Test Pie</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div>
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
