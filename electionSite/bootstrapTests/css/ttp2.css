@@ -9,6 +9,60 @@
 	align: center;
 }
 
+#candidate-header {
+	
+}
+#candidate-photo-div{
+	
+}
+#candidate-photo {
+	width: 50%;
+}
+.candidate-bio {
+	font-size:20px;
+	
+}
+#candidate-bio-list {
+	list-style-type:katakana;
+	float:left;
+}
+.candidate-issues {
+	margin-top: 30px;
+}
+#candidate-table {
+	font-size: 25px;
+	width: 80%;
+	background-color: rgba(252,252,252,.5);
+	border: 2px solid black;
+	align-content: center;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
+th {
+	background-color: rgba(29,176,146,1.00);
+	height: 55px;
+	color: white;
+	border-bottom: 1px solid #8E8D8D;
+	font-weight: lighter;
+}
+tr {
+	height: 45px;
+	border-bottom: 1px solid #8E8D8D;
+}
+tr:nth-child(even) {background-color: rgba(252,252,252,.8)}
+
+.candidate-data {
+	margin-top: 30px;
+}
+#data_embed {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*
  * Base structure
  */
