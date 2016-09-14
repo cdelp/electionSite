@@ -29,7 +29,7 @@ body {
 /* Links */
 a,
 a:focus,
-a:hover {
+a:hover{
 	color: #939191;
 }
 
@@ -51,8 +51,8 @@ masthead-nav > li {
 	margin-left: 0px;
 }
 .masthead-nav > li > a {
-	padding-right: 10;
-	padding-left: 10;
+	padding-right: 20px;
+	padding-left: 20px;
 	font-size: 16px;
 	font-weight: normal;
 	color: #fff; /* IE8 proofing */
@@ -60,20 +60,17 @@ masthead-nav > li {
 	border-right: 4px solid transparent;
 	border-left: 4px solid transparent;
 	margin-bottom: 0px;
-
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-	background-color: rgba(255,255,255,.5);
 	border-right-color: #000000;
 	border-left-color: #000000;
-	border-bottom-color: rgba(255,255,255,1.0);
+	border-bottom-width: 0px;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-	color: #020000;
-	border-bottom-color: #fff;
+	color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -83,7 +80,10 @@ masthead-nav > li {
   .masthead-nav {
 	display: table;
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
 	color: none;
 	border-bottom: medium solid;
   }
