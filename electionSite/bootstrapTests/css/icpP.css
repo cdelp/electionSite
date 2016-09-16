@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#left_seal {
+	width: 80px;
+}
+
+#vote-header {
+	font-color: white;
+	align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+#candidate-header {
+	
+}
+#candidate-photo-div{
+	
+}
+#candidate-photo {
+	width: 50%;
+}
+.candidate-bio {
+	font-size:20px;
+	
+}
+#candidate-bio-list {
+	list-style-type:katakana;
+	float:left;
+}
+.candidate-issues {
+	margin-top: 30px;
+}
+#candidate-table {
+	font-size: 25px;
+	width: 80%;
+	background-color: rgba(252,252,252,.5);
+	border: 2px solid black;
+	align-content: center;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
+th {
+	background-color: rgba(29,176,146,1.00);
+	height: 55px;
+	color: white;
+	border-bottom: 1px solid #8E8D8D;
+	font-weight: lighter;
+}
+tr {
+	height: 45px;
+	border-bottom: 1px solid #8E8D8D;
+}
+tr:nth-child(even) {background-color: rgba(252,252,252,.8)}
+
+.candidate-data {
+	margin-top: 30px;
+}
+#data_embed {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+	height: 100%;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+body {
+	color: #000000;
+	text-align: center;
+	border-color: #000000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover{
+	color: #FFFFFF;
+}
+
+/*
+ * Navigation
+ */
+.masthead-nav {
+    display: table;
+	width:100%;
+	margin: 0 auto;
+  }
+ 
+masthead-nav > li {  	
+	float: none;
+	display:table-cell;
+	text-align:center;
+}
+.masthead-nav > li + li {
+	margin-left: 0px;
+}
+.masthead-nav > li > a {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff; /* IE8 proofing */
+	color: rgba(1,1,1,.75);
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	margin-bottom: 0px;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	border-right-color: #000000;
+	border-left-color: #000000;
+	border-bottom-width: 0px;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: #000000;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+	display: table;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	border-bottom: medium solid #FFFFFF;
+  }
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
