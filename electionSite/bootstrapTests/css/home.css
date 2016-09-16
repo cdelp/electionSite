@@ -23,7 +23,7 @@ a:hover {
 
 .ghost-button {
 	display: inline-block;
-	width: auto;
+	width: 200px;
 	padding: 8px;
 	color: #898888;
 	border: 1px solid #010101;
