@@ -12,13 +12,13 @@
     <title>Cover Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/home.css" rel="stylesheet">
+    <link href="./css/home.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,6 +31,10 @@
 
     <div class="site-wrapper">
 
+      <div>
+        <div class="input-group"></div>
+        <div class="input-group"> </div>
+</div>
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
@@ -41,10 +45,13 @@
             <hr width="55%" align="center" size="10" noshade>
             <p class="lead"></p>
             <p class="lead">
-              <a href="#" class="btn-default btn-lg">Find My Location</a>
+              <a href="#" class="button-width"> Find My Location </a><span class="input-group">
+              </span>
             </p>
-            <p class="lead">
-              <a href="#" class="ghost-button">enter zipcode</a>
+            <input type="text" class="ghost-button" placeholder="Enter Zip Code" aria-describedby="addon1">
+            <button type="button" class="button-go"> Go</button>
+            <p class="lead"> <span class="input-group">
+            </span>
             </p>
           </div>
 

@@ -6,7 +6,9 @@
 a,
 a:focus,
 a:hover {
-	color: #939191;
+	color: #FFF;
+	border-color: #2F2E2E;
+	font-size: 16px;
 }
 
 /* Custom default button */
@@ -23,15 +25,50 @@ a:hover {
 
 .ghost-button {
 	display: inline-block;
-	width: auto;
-	padding: 8px;
+	width: 196px;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-bottom: 8px;
 	color: #898888;
+	border: 1px solid #2F2E2E;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.button-width {
+	display: inline-block;
+	width: 250px;
+	padding: 8px;
+	color: #FFF;
+	background-color: #116557;
 	border: 1px solid #010101;
 	text-align: center;
 	outline: none;
 	text-decoration: none;
 	letter-spacing: 2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.button-go {
+	display: inline-block;
+	width: 50px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	color: #FFF;
+	background-color: #116557;
+	border: 1px solid #2F2E2E;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
 
 
 /*
@@ -63,8 +100,10 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 /* Padding for spacing */
@@ -130,7 +169,7 @@ body {
 	padding-top: 5%;
 	padding-right: 20px;
 	padding-left: 20px;
-	padding-bottom: 0px;
+	padding-bottom: 5%;
 }
 .cover .btn-lg {
   padding: 10px 20px;
