@@ -68,7 +68,7 @@
     <!-- Add content as needed -->
     <div class="container-fluid">
         
-        <div style="width: 90%; margin-left: auto; /* [disabled]margin-right: auto; */">
+        <div style="width: 95%; margin-left: auto; /* [disabled]margin-right: auto; */">
             <!-- Photo Section -->
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="candidate-photo-div">
                 <img src="images/djou.jpg" id="candidate-photo">
@@ -86,12 +86,39 @@
                     <li> <b>Campaign Website:</b> <a href="www.djou.com">www.djou.com</a></li>
                 </ul>
             </div>
+        </div>        
+     </div>
+     
+  <!-- Accordian Panel --> 
+     <div class="panel-group" id="accordion">
+      <!-- Voting Record Panel --> 
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+            Voting Record</a>
+          </h4>
         </div>
-        
-        <!-- Issues Section -->
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+      </div>
+      
+      <!-- Issues Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+             Issue Stances</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">
+          	<!-- Issues Section -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 candidate-issues">
-        	<h3> insert candidate issues/other section</h3>
-            <br>
               <table id="candidate-table">
                   <tr>
                     <th>Issue</th>
@@ -121,22 +148,71 @@
                   </tr>
               </table>     
        </div>
-       <br>
-       
-       <!-- Candidate Date Section -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contributions Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+            Campaign Contributions</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">
+          	<!-- Candidate Date Section -->
        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 candidate-data">
-        	<h3> insert candidate data section</h3>
-            <br>
-            <h3> Candidate Contributions (or other data) </h3>
+            <h3> Title if needed </h3>
             <!-- Embed code from Open Data Hawaii -->
             <!-- need to maually add responsive class code to div and iframe -->
             <div class="embed-responsive embed-responsive-16by9" id="data_embed"><iframe class="embed-responsive-item" width="950px" title="Djou contribution tree 2016" height="808px" src="https://data.hawaii.gov/w/2wnr-g9ib/w4u8-7ba7?cur=WLwiJbXunDC&from=root" frameborder="0"scrolling="no"><a href="https://data.hawaii.gov/Community/Djou-contribution-tree-2016/2wnr-g9ib" title="Djou contribution tree 2016" target="_blank">Djou contribution tree 2016</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div>
             
-            <br>
-            <h3> Candidate Contributions (or other data) </h3>
+            <h3> Title if needed </h3>
             <!-- Embed code from Open Data Hawaii -->
        		<!-- need to maually add responsive class code to div and iframe -->
             <div class="embed-responsive embed-responsive-16by9" id="data_embed"><iframe class="embed-responsive-item" width="950px" title="Djou Test Pie" height="808px" src="https://data.hawaii.gov/w/cm6k-ubd4/w4u8-7ba7?cur=fGoD65viNpl&from=root" frameborder="0"scrolling="no"><a href="https://data.hawaii.gov/Community/Djou-Test-Pie/cm6k-ubd4" title="Djou Test Pie" target="_blank">Djou Test Pie</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Spending Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+            Campaign Spending</a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+      </div>
+      
+      <!-- Articles Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+            Most Recent News Articles</a>
+          </h4>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+      </div>
+    </div> 
+        
+        
+       
+       
 
 
 <!-- Bootstrap core JavaScript
@@ -145,6 +221,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
   </body>

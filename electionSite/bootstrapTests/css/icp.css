@@ -17,6 +17,7 @@
 	border-right-style: solid;
 	border-right-width: medium;
 	margin-left: 20px;
+	vertical-align: auto;
 }
 #candidate-photo {
 	width: 70%;
@@ -28,13 +29,14 @@
 }
 #candidate-name {
 	float: left;
-	margin-left: 2%;
+	margin-left: 0%;
 	margin-right: 60%;
 	margin-bottom: 10px;
 }
 .candidate-bio {
 	font-size: 20px;
 	margin-left: 10px;
+	margin-top: -10px;
 }
 #candidate-bio-list {
 	list-style-type: disc;
@@ -93,7 +95,7 @@ body {
 body {
 	color: #000000;
 	text-align: center;
-	border-color: #000000;
+	/* [disabled]border-color: #000000; */
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
