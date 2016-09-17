@@ -18,6 +18,7 @@
 	border-right-width: medium;
 	margin-left: 20px;
 	vertical-align: auto;
+	/* [disabled]float: right; */
 }
 #candidate-photo {
 	width: 70%;
@@ -51,9 +52,6 @@
 #candidate-table {
 	font-size: 25px;
 	width: 80%;
-	background-color: rgba(252,252,252,.5);
-	border: 2px solid black;
-	align-content: center;
 }
 
 table {
@@ -61,17 +59,17 @@ table {
 	margin-right:auto;
 }
 th {
-	background-color: rgba(29,176,146,1.00);
+	background-color: transparent;
 	height: 55px;
-	color: white;
-	border-bottom: 1px solid #8E8D8D;
-	font-weight: lighter;
+	color: black;
+	border-bottom: 5px solid #000000;
+	font-weight: medium;
+	align-content:left;
 }
 tr {
 	height: 45px;
-	border-bottom: 1px solid #8E8D8D;
+	border-bottom: 1px solid #4C4C4C;
 }
-tr:nth-child(even) {background-color: rgba(252,252,252,.8)}
 
 .candidate-data {
 	margin-top: 30px;
