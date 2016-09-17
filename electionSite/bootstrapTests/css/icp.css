@@ -14,18 +14,34 @@
 	
 }
 #candidate-photo-div{
-	
+	border-right-style: solid;
+	border-right-width: medium;
+	margin-left: 20px;
 }
 #candidate-photo {
-	width: 50%;
+	width: 70%;
+	padding: 8px;
+	/* [disabled]float: left; */
+	background-color: white;
+	-webkit-box-shadow: 4px 3px 5px #888888;
+	box-shadow: 4px 3px 5px #888888;
+}
+#candidate-name {
+	float: left;
+	margin-left: 2%;
+	margin-right: 60%;
+	margin-bottom: 10px;
 }
 .candidate-bio {
-	font-size:20px;
-	
+	font-size: 20px;
+	margin-left: 10px;
 }
 #candidate-bio-list {
-	list-style-type:cir;
-	float:left;
+	list-style-type: disc;
+	float: left;
+	color: #464646;
+	font-size: 20px;
+	text-align: left;
 }
 .candidate-issues {
 	margin-top: 30px;
@@ -78,7 +94,7 @@ body {
 	color: #000000;
 	text-align: center;
 	border-color: #000000;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Links */
