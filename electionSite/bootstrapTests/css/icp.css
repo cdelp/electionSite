@@ -4,6 +4,9 @@
 #left_seal {
 	width: 80px;
 }
+#right_translate {
+	width: 200px;
+}
 
 #vote-header {
 	align: center;
@@ -27,6 +30,7 @@
 	background-color: white;
 	-webkit-box-shadow: 4px 3px 5px #888888;
 	box-shadow: 4px 3px 5px #888888;
+	margin-bottom: 20px;
 }
 #candidate-name {
 	float: left;
@@ -122,8 +126,8 @@ masthead-nav > li {
 	margin-left: 0px;
 }
 .masthead-nav > li > a {
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff; /* IE8 proofing */
