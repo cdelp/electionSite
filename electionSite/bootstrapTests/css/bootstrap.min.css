@@ -130,7 +130,8 @@
 }.panel-default>.panel-heading{
 	color: #333;
 	background-color: transparent;
-	border-top-color: #888888
+	border-top-color: #888888;
+	text-align: left;
 }.panel-default>.panel-heading+.panel-collapse>.panel-body{
 	border-top-color: #ddd;
 	font-size: 24px;
