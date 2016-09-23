@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +9,16 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Mayoral Candidate Comparison page (Chinese)</title>
+    <title>Mayoral Candidate Comparison Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.blue.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/icp.css" rel="stylesheet">
+    <link href="./css/icp_blue.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,17 +35,12 @@
         	<!-- State Seal -->
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
             	<div class="well">
-                	<img src="images/Seal2.png" id="left_seal">                </div>            
+                	<img src="images/Seal2.png" id="left_seal" aria-hidden="true">                </div>            
             </div>
             
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
-            	<h1 class="cover-heading" id="vote-header">VOTE HAWAI'I</h1>
+            	<h1 class="cover-heading" id="vote-header" aria-hidden="true">VOTE HAWAI'I</h1>
             </div>
-            
-            <div class="col-xs-12 col-md-3 col-lg-3 col-xl-3">
-            	<div class="well">
-                	<img src="images/translate.png" id="right-translate">                </div> 
-            </div>  
                        
         </div>
         
@@ -53,14 +48,14 @@
         	<!-- Navigation -->           
                 <nav class="navbar navbar-default" style="background-color: transparent; border-top-color: transparent; border-bottom: medium solid transparent; border-right-color: transparent; border-left-color: transparent;">
                 	<div class="container-fluid">
-                        <ul class="masthead-nav nav navbar-nav" >
-                        	<li><a href="#" class="active">国家主席</a></li>
-                          	<li><a href="#">全国代表大会</a></li>
-                          	<li><a href="#">代表 (26区)</a></li>
-                          	<li><a href="#">市长 (檀香山)</a></li>
-                          	<li><a href="#">市议会 (檀香山)</a></li>
-                          	<li><a href="#">议案第一</a></li>
-                          	<li><a href="#">议案第二</a></li>
+                        <ul class="masthead-nav nav navbar-nav">
+                        	<li><a href="#" class="active" style="color: #383838">President</a></li>
+                          	<li><a href="#" style="color: #383838">Congress</a></li>
+                          	<li><a href="#" style="color: #383838">House (Dist 26)</a></li>
+                          	<li><a href="#" style="color: #383838">Mayor (Honolulu)</a></li>
+                          	<li><a href="#" style="color: #383838">City Council (Honolulu)</a></li>
+                          	<li><a href="#" style="color: #383838">Ballot Measure 1</a></li>
+                          	<li><a href="#" style="color: #383838">Ballot Measure 2</a></li>
                         </ul>
                     </div>
                 </nav>         
@@ -89,29 +84,29 @@
         
                   </tr>
                   <tr>
-                  <th scope="col"> 问题 </th>
+                  <th scope="col"; aria-label="Campaign Issues"; tabindex="0"> Issues </th>
                   <th> </th>
                   <th> </th>
                   </tr>
                   <tr>
-                    <td scope="col"> 轻轨列车</td>
-                    <td style="background-color: #009B00"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-                    <td style="background-color:#009B00" alt="Djou supports rail"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                    <td scope="col"; tabindex="0"> Rail</td>
+                    <td style="background-color: #009B00"; tabindex="0"> <span class="glyphicon glyphicon-ok" aria-label="Caldwell supports rail"></span></td>
+                    <td style="background-color:#009B00"; tabindex="0"><span class="glyphicon glyphicon-ok" aria-label="Djou supports rail"></span></td>
                     <tr>
-                    <td scope="col"> 问题第二</td>
-                    <td style="background-color: #FF4141"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-                    <td style="background-color:#009B00"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                    <td scope="col"; tabindex="0"> Issue 2</td>
+                    <td style="background-color: #FF4141"; tabindex="0"><span class="glyphicon glyphicon-remove" aria-label="Caldwell opposes issue 2"></span></td>
+                    <td style="background-color:#009B00"; tabindex="0"><span class="glyphicon glyphicon-ok" aria-label="Djou supports issue two"></span></td>
                   </tr>
                   <tr>
-                    <td>问题第三</td>
-                    <td style="background-color: #ff4141"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-                    <td style="background-color:#009B00"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                    <td scope="col"; tabindex="0">Issue 3</td>
+                    <td style="background-color: #ff4141"; tabindex="0"><span class="glyphicon glyphicon-remove" aria-label="Caldwell opposes issue 3"></span></td>
+                    <td style="background-color:#009B00"; tabindex="0"><span class="glyphicon glyphicon-ok" aria-label="Djou supports issue 3"></span></td>
                   </tr>
                   </tr>
                   <tr>
-                    <td>问题第四</td>
-                    <td style="background-color:#009B00"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-                    <td style="background-color:#ff4141"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+                    <td scope="col"; tabindex="0">Issue 4</td>
+                    <td style="background-color:#009B00"; tabindex="0"><span class="glyphicon glyphicon-ok" aria-label="Caldwell supports Issue four"></span></td>
+                    <td style="background-color:#ff4141"; tabindex="0"><span class="glyphicon glyphicon-remove" aria-label="Djou opposes issue 4"></span></td>
                   </tr>
                   </tr>
               </table>     

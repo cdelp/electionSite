@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#left_seal {
+	width: 80px;
+}
+#right_translate {
+	width: 200px;
+}
+
+#vote-header {
+	align: center;
+	font-weight: bolder;
+}
+
+#candidate-header {
+	
+}
+#candidate-photo-div{
+	border-right-style: solid;
+	border-right-width: medium;
+	margin-left: 20px;
+	vertical-align: auto;
+	/* [disabled]float: right; */
+}
+#candidate-photo {
+	width: 70%;
+	padding: 8px;
+	/* [disabled]float: left; */
+	background-color: white;
+	-webkit-box-shadow: 4px 3px 5px #888888;
+	box-shadow: 4px 3px 5px #888888;
+	margin-bottom: 20px;
+}
+#candidate-name {
+	float: left;
+	margin-left: 0%;
+	margin-right: 60%;
+	margin-bottom: 10px;
+}
+.candidate-bio {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+#candidate-bio-list {
+	list-style-type: disc;
+	float: left;
+	color: #383838;
+	font-size: 20px;
+	text-align: left;
+}
+.candidate-issues {
+	margin-top: 30px;
+}
+#candidate-table {
+	font-size: 25px;
+	width: 80%;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(255,255,255,0.20);
+}
+th {
+	background-color: transparent;
+	height: 55px;
+	color: black;
+	border-bottom: 5px solid #000000;
+	font-weight: medium;
+	align-content:left;
+}
+tr {
+	height: 45px;
+	border-bottom: 1px solid #383838;
+}
+
+.candidate-data {
+	margin-top: 30px;
+}
+#data_embed {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+	height: 100%;
+	background-color: #608AB2;
+	background-image: url(../images/BlueKaena.jpg);
+	background-repeat: no-repeat;
+	background-position:center bottom;
+}
+body {
+	color: #000000;
+	text-align: center;
+	/* [disabled]border-left-color: #000000; */
+	/* [disabled]border-right-color: #000000; */
+	/* [disabled]border-bottom-color: #000000; */
+	/* [disabled]border-top-color: #000000; */
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover{
+	color: #000000;
+}
+
+/*
+ * Navigation
+ */
+.masthead-nav {
+    display: table;
+	width:100%;
+	margin: 0 auto;
+  }
+ 
+masthead-nav > li {  	
+	float: none;
+	display:table-cell;
+	text-align:center;
+}
+.masthead-nav > li + li {
+	margin-left: 0px;
+}
+.masthead-nav > li > a {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff; /* IE8 proofing */
+	color: rgba(1,1,1,.75);
+	border-right: 4px solid transparent;
+	/* [disabled]border-left-style: solid; */
+	border-left-width: 4px;
+	margin-bottom: 0px;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	border-right-color: #000000;
+	border-left-color: #000000;
+	border-bottom-width: 0px;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: #000000;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+	display: table;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	color: none;
+	border-bottom: medium solid;
+  }
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
